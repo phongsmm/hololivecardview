@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c52e4b1374a3a54ef7e15cea1c8f34da",
+    "revision": "355c99d8777bc1ffd43f3a64cb1745db",
     "url": "/hololivecardview/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/hololivecardview/static/css/2.90748ae6.chunk.css"
   },
   {
-    "revision": "3616c434bff69ff9a53b",
+    "revision": "68e65730ac2bb6840f6d",
     "url": "/hololivecardview/static/css/main.5f361e03.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/hololivecardview/static/js/2.e8fe1543.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3616c434bff69ff9a53b",
-    "url": "/hololivecardview/static/js/main.ca372eb7.chunk.js"
+    "revision": "68e65730ac2bb6840f6d",
+    "url": "/hololivecardview/static/js/main.1b14edbc.chunk.js"
   },
   {
     "revision": "79f3caf697a158dc2bb0",
