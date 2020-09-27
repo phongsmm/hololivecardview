@@ -22,25 +22,20 @@ constructor(props){
 
 async componentDidMount(){
 
-  axios.get('https://holo.dev/api/v1/lives/scheduled').then(res=>{
-
-    const data =  res.data;
-    this.setState({holostate:data.lives});
-
-   })
-  
-
-axios.get('https://holo.dev/api/v1/lives/current').then(res=>{
-    const data =  res.data;
-    const currentlive =  data.lives;
-   this.setState(prevState=>({holostate:[...prevState.holostate,...currentlive]}))
+ 
+  axios.get('https://holo.dev/api/v1/lives/scheduled').then(res1=>{
+    axios.get('https://holo.dev/api/v1/lives/current').then(res2=>{
+ 
+  this.setState(prevState=>({holostate:[...res1.data.lives,...res2.data.lives]}))
 
 
 })
 
+   })
+  
     this.setState({stringdate:`${this.state.date.toISOString().substring(0,10)}`});
 
-  
+
 
 
 }
@@ -57,7 +52,8 @@ count(){
   
     var countdata =[];
     this.state.holostate.map((hololive,i)=>{
-        if(hololive.start_at.split("T")[0] === this.state.stringdate)  {return countdata.push(hololive)}  
+        if(hololive.start_at.split("T")[0] === this.state.stringdate)  
+        {return countdata.push(hololive) }  
          return 0;
     });
 
@@ -70,6 +66,8 @@ count(){
 
 
   render(){
+
+    
 
     this.count();
     console.log();

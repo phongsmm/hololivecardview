@@ -25,22 +25,18 @@ constructor(){
 
  componentDidMount(){
 
-   axios.get('https://holo.dev/api/v1/lives/scheduled').then(res=>{
+   axios.get('https://holo.dev/api/v1/lives/scheduled').then(res1=>{
+    axios.get('https://holo.dev/api/v1/lives/current').then(res2=>{
+ 
+  this.setState(prevState=>({hololive:[...res1.data.lives,...res2.data.lives]}))
 
-    const data =  res.data;
-    this.setState({hololive:data.lives});
+
+})
 
    })
   
 
-axios.get('https://holo.dev/api/v1/lives/current').then(res=>{
 
-    const data =  res.data;
-    const currentlive =  data.lives;
-  this.setState(prevState=>({hololive:[...prevState.hololive,...currentlive]}))
-
-
-})
 
 
 
