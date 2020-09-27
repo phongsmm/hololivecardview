@@ -10,6 +10,7 @@ import 'semantic-ui-css/semantic.min.css'
 
 class App extends React.Component {
 
+  _isMounted = false;
 
 constructor(){
   super();
@@ -22,14 +23,46 @@ constructor(){
   this.c_Tabshanddle = this.c_Tabshanddle.bind(this);
 }
 
-componentDidMount(){
+ componentDidMount(){
 
-axios.get('https://holo.dev/api/v1/lives/scheduled').then(res=>{
-  const data = res.data;
-  this.setState({hololive:data.lives});
+   axios.get('https://holo.dev/api/v1/lives/scheduled').then(res=>{
+
+    const data =  res.data;
+    this.setState({hololive:data.lives});
+
+   })
+  
+
+axios.get('https://holo.dev/api/v1/lives/current').then(res=>{
+
+    const data =  res.data;
+    const currentlive =  data.lives;
+  this.setState(prevState=>({hololive:[...prevState.hololive,...currentlive]}))
+
 
 })
+
+
+
+
+
 }
+
+
+
+componentWillUnmount(){
+
+  this._isMounted = false;
+
+}
+
+shouldComponentUpdate(props,state){
+  if(this.state !== state){
+    return true;
+  }return false;
+
+}
+
 
 c_Tabshanddle(e){
   this.setState({dateString:e});
@@ -41,7 +74,6 @@ c_Tabshanddle(e){
 
 
   render(){
-
 
   return (
     <div className="App">

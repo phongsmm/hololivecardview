@@ -20,14 +20,23 @@ constructor(props){
 
 }
 
-componentDidMount(){
+async componentDidMount(){
 
-axios.get('https://holo.dev/api/v1/lives/scheduled').then(res=>{
-  const data = res.data;
-  this.setState({holostate:data.lives});
+  axios.get('https://holo.dev/api/v1/lives/scheduled').then(res=>{
+
+    const data =  res.data;
+    this.setState({holostate:data.lives});
+
+   })
+  
+
+axios.get('https://holo.dev/api/v1/lives/current').then(res=>{
+    const data =  res.data;
+    const currentlive =  data.lives;
+   this.setState(prevState=>({holostate:[...prevState.holostate,...currentlive]}))
+
 
 })
-
 
     this.setState({stringdate:`${this.state.date.toISOString().substring(0,10)}`});
 
