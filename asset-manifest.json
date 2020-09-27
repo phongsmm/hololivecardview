@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.5f361e03.chunk.css",
-    "main.js": "/static/js/main.70411f93.chunk.js",
-    "main.js.map": "/static/js/main.70411f93.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.8c7827c8.js",
-    "runtime-main.js.map": "/static/js/runtime-main.8c7827c8.js.map",
-    "static/css/2.7df41cd5.chunk.css": "/static/css/2.7df41cd5.chunk.css",
-    "static/js/2.9f03839a.chunk.js": "/static/js/2.9f03839a.chunk.js",
-    "static/js/2.9f03839a.chunk.js.map": "/static/js/2.9f03839a.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.dac7924edab525e3442faed2c6dd20bc.js": "/precache-manifest.dac7924edab525e3442faed2c6dd20bc.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.7df41cd5.chunk.css.map": "/static/css/2.7df41cd5.chunk.css.map",
-    "static/css/main.5f361e03.chunk.css.map": "/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.9f03839a.chunk.js.LICENSE.txt": "/static/js/2.9f03839a.chunk.js.LICENSE.txt",
-    "static/media/semantic.min.css": "/static/media/outline-icons.ef60a4f6.woff"
+    "main.css": "/hololivecardview/static/css/main.5f361e03.chunk.css",
+    "main.js": "/hololivecardview/static/js/main.98a7bc39.chunk.js",
+    "main.js.map": "/hololivecardview/static/js/main.98a7bc39.chunk.js.map",
+    "runtime-main.js": "/hololivecardview/static/js/runtime-main.0f8de5d3.js",
+    "runtime-main.js.map": "/hololivecardview/static/js/runtime-main.0f8de5d3.js.map",
+    "static/css/2.90748ae6.chunk.css": "/hololivecardview/static/css/2.90748ae6.chunk.css",
+    "static/js/2.38106029.chunk.js": "/hololivecardview/static/js/2.38106029.chunk.js",
+    "static/js/2.38106029.chunk.js.map": "/hololivecardview/static/js/2.38106029.chunk.js.map",
+    "index.html": "/hololivecardview/index.html",
+    "precache-manifest.40fcd153943293b458e486e9ab63eb33.js": "/hololivecardview/precache-manifest.40fcd153943293b458e486e9ab63eb33.js",
+    "service-worker.js": "/hololivecardview/service-worker.js",
+    "static/css/2.90748ae6.chunk.css.map": "/hololivecardview/static/css/2.90748ae6.chunk.css.map",
+    "static/css/main.5f361e03.chunk.css.map": "/hololivecardview/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.38106029.chunk.js.LICENSE.txt": "/hololivecardview/static/js/2.38106029.chunk.js.LICENSE.txt",
+    "static/media/semantic.min.css": "/hololivecardview/static/media/outline-icons.ef60a4f6.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.8c7827c8.js",
-    "static/css/2.7df41cd5.chunk.css",
-    "static/js/2.9f03839a.chunk.js",
+    "static/js/runtime-main.0f8de5d3.js",
+    "static/css/2.90748ae6.chunk.css",
+    "static/js/2.38106029.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.70411f93.chunk.js"
+    "static/js/main.98a7bc39.chunk.js"
   ]
 }
