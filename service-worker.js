@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/hololivecardview/precache-manifest.40fcd153943293b458e486e9ab63eb33.js"
+  "/hololivecardview/precache-manifest.3c2e71070b16f72d2448792b874649e7.js"
 );
 
 self.addEventListener('message', (event) => {
