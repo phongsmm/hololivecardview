@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "355c99d8777bc1ffd43f3a64cb1745db",
+    "revision": "71aaa56e4743bcd3d961c34f7c2e7acf",
     "url": "/hololivecardview/index.html"
   },
   {
