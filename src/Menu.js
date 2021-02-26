@@ -73,7 +73,7 @@ count(){
     console.log();
 
   return (
-    <div>
+    <div style={{flex:1,backgroundColor:'transparent'}}>
         <div>
             <div className="ui secondary menu" style={{backgroundColor:"#f1f3f8"}}> 
         <div>
@@ -83,11 +83,11 @@ count(){
 </div> </button>
   
    
-  <a style={{position:"absolute",left:"2px",top:"50px"}} href="https://holo.dev/api/v1/lives/scheduled" className="ui blue image label">fecth<div className="detail">https://holo.dev/api/v1/lives/scheduled</div></a>
+  <a style={{position:"absolute",left:"2px",top:"50px",zIndex:1}} href="https://holo.dev/api/v1/lives/scheduled" className="ui blue image label">fecth<div className="detail">https://holo.dev/api/v1/lives/scheduled</div></a>
  
-        
-          </div>  </div> </div>
 
+          </div>  </div> </div>
+          
 
       </div>
 
