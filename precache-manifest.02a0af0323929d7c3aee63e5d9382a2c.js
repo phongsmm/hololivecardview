@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "71aaa56e4743bcd3d961c34f7c2e7acf",
+    "revision": "c0ad20853689c2ca8c5b3d12f0a11846",
     "url": "/hololivecardview/index.html"
   },
   {
-    "revision": "26a50e085f08d797d18c",
+    "revision": "d2d6fd59b43f4ac929ae",
     "url": "/hololivecardview/static/css/2.90748ae6.chunk.css"
   },
   {
-    "revision": "68e65730ac2bb6840f6d",
-    "url": "/hololivecardview/static/css/main.5f361e03.chunk.css"
+    "revision": "8b9898c2bb5ef1a988f8",
+    "url": "/hololivecardview/static/css/main.cbc718b1.chunk.css"
   },
   {
-    "revision": "26a50e085f08d797d18c",
-    "url": "/hololivecardview/static/js/2.e8fe1543.chunk.js"
+    "revision": "d2d6fd59b43f4ac929ae",
+    "url": "/hololivecardview/static/js/2.88c872b0.chunk.js"
   },
   {
-    "revision": "d837bdfa2a2c08de9ff5012f63aaaf8c",
-    "url": "/hololivecardview/static/js/2.e8fe1543.chunk.js.LICENSE.txt"
+    "revision": "c836aaadfe43dfd9fcb8ddeddfd61e18",
+    "url": "/hololivecardview/static/js/2.88c872b0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "68e65730ac2bb6840f6d",
-    "url": "/hololivecardview/static/js/main.1b14edbc.chunk.js"
+    "revision": "8b9898c2bb5ef1a988f8",
+    "url": "/hololivecardview/static/js/main.ec2a037a.chunk.js"
   },
   {
     "revision": "79f3caf697a158dc2bb0",
